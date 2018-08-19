@@ -24,7 +24,8 @@ const codes = [
     console.log(index+' this is number correct these many times'+'total length = '+codes.length)
     if (index===codes.length){
       window.alert("hurray");
-      document.write("hi success");
+ 
+
       console.log('mission complete')
       index=0
       console.log('index now '+index)
