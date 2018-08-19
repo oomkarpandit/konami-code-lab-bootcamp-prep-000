@@ -14,6 +14,7 @@ const codes = [
  function init(){
    document.body.addEventListener('keydown',function(e){console.log('Listening'+e.key)
      keydown(e)
+     alert('const')
    })
  }
  function keydown(e){
@@ -23,7 +24,8 @@ const codes = [
     index++
     console.log(index+' this is number correct these many times'+'total length = '+codes.length)
     if (index===codes.length){
-   alert("hurray");
+      
+      alert("hurray");
  
 
       console.log('mission complete')
