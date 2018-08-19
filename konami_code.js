@@ -25,17 +25,10 @@ const codes = [
     index++
     console.log(index+' this is number correct these many times'+'total length = '+codes.length)
     if (index===codes.length){
-       alert('done for challenge')
-      
- 
-
+      alert('done for challenge')
       console.log('mission complete')
       index=0
-      console.log('index now '+index)
-    
-    
-      
-    }
+      }
   }
   else {
     index=0
