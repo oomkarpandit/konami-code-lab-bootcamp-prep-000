@@ -25,8 +25,8 @@ const codes = [
     index++
     console.log(index+' this is number correct these many times'+'total length = '+codes.length)
     if (index===codes.length){
+       alert('done for challenge')
       
-      alert("hurray");
  
 
       console.log('mission complete')
